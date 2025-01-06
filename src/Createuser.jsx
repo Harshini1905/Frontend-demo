@@ -23,7 +23,7 @@ function Createuser() {
 
 
     return (
-        <div>
+        <div className="createuser">
             <form onSubmit={submit}>
                 <label>Name</label>
                 <input type="text" id="name" onChange={(e)=>setName(e.target.value)} /><br/><br></br>

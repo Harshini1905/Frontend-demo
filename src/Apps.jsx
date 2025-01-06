@@ -7,9 +7,6 @@ import Updateuser from './Updateuser';
 function Apps() {
   return (
     <Router>
-      <Link to="/">User</Link><br />
-      <Link to="/createuser">Create User</Link><br/>
-      <Link to="/updateuser">Update User</Link>
       <Routes>
         <Route path="/" element={<User />} />
         <Route path="/createuser" element={<Createuser />} />

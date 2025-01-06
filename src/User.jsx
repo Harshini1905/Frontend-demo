@@ -30,8 +30,10 @@ function User() {
     return (
         
         <div>
-                    
-            <Link to="/createuser">Create User</Link>
+             <h1>      
+            <Link to="/createuser">
+            <button className="creates">Create User</button>
+            </Link></h1> 
            <table border="2">
                 <tr>
                      <th>Name</th>
