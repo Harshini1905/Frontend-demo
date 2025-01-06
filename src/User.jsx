@@ -30,6 +30,7 @@ function User() {
     return (
         
         <div>
+            <h1><marquee>😊 Welcome 😊</marquee></h1>
              <h1>      
             <Link to="/createuser">
             <button className="creates">Create User</button>
